@@ -217,6 +217,8 @@ GitHub Pages 项目页（[phoenix0531-sudo.github.io/TablePilot](https://phoenix
 
 ## 贡献
 
+全新克隆的安装步骤、依赖位置与桌面壳构建见 **[INSTALL.md](INSTALL.md)**。
+
 欢迎贡献 —— 见 [CONTRIBUTING.md](CONTRIBUTING.md)。简版原则：**本地优先**（默认路径不上传远程）、**证据为本**（agent/report 产物源自真实画像数据）、**文档诚实**（不描述代码没有的能力）。提交 PR 前：
 
 - **服务测试** —— `python -m pytest -q analysis_service/tests`（108 个 analysis.py 单元测试 + 38 个 agent.py 单元测试 + 端点集成测试）。

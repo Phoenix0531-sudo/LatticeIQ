@@ -222,6 +222,8 @@ Nowhere by default. Files are loaded from a local data directory (or an upload) 
 
 ## Contributing
 
+Setup from a fresh clone, dependency locations, and the desktop-shell build are documented step by step in **[INSTALL.md](INSTALL.md)**.
+
 Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). The short version: keep it **local-first** (no remote uploads in the default path), **evidence-grounded** (agent/report output derives from the actual profiled data), and **honest in docs** (don't describe a capability the code doesn't ship). Before opening a PR:
 
 - **Service tests** — `python -m pytest -q analysis_service/tests` (108 analysis.py unit tests + 38 agent.py unit tests + endpoint integration tests).
